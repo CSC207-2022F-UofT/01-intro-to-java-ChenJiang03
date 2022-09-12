@@ -183,8 +183,7 @@ public class Basics {
          */
         if (arr.length > 1)
         {
-            for (int i = 2; i <= arr.length; i+=2)
-            {
+            for (int i = 1; i <= arr.length; i += 2) {
                 current_sum += arr[i];
             }
         }
